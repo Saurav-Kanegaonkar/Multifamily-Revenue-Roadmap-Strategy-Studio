@@ -1,0 +1,26 @@
+entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
+PRO009,Property workflow 9,Watch,93.53,51.3,79.6,773308
+PRO001,Property workflow 1,Growth,90.55,49.3,79.5,747389
+PRO013,Property workflow 13,Strategic,88.20,49.3,78.7,711057
+PRO020,Property workflow 20,Strategic,87.94,51.8,79.4,688875
+PRO028,Property workflow 28,Growth,85.44,50.7,80.3,668005
+PRO005,Property workflow 5,Watch,85.31,55.7,80.0,621317
+PRO031,Property workflow 31,Core,84.92,54.5,82.2,636020
+PRO033,Property workflow 33,Growth,84.16,53.9,80.3,622325
+PRO011,Property workflow 11,Core,83.25,50.9,81.5,640603
+PRO025,Property workflow 25,Watch,82.88,51.9,81.7,627450
+PRO010,Property workflow 10,Growth,81.90,53.7,77.0,577471
+PRO036,Property workflow 36,Strategic,81.64,50.6,80.8,618104
+PRO030,Property workflow 30,Core,81.63,54.8,79.0,572999
+PRO016,Property workflow 16,Watch,81.33,52.5,81.0,597139
+PRO018,Property workflow 18,Strategic,80.87,53.5,82.1,587533
+PRO019,Property workflow 19,Core,80.26,52.8,81.6,583288
+PRO017,Property workflow 17,Core,79.99,52.0,80.3,580320
+PRO032,Property workflow 32,Watch,78.62,50.4,80.6,576408
+PRO022,Property workflow 22,Watch,78.61,50.7,81.7,578319
+PRO002,Property workflow 2,Strategic,78.43,51.0,82.2,575695
+PRO023,Property workflow 23,Growth,77.15,52.1,80.1,539032
+PRO026,Property workflow 26,Growth,77.06,48.6,79.9,566950
+PRO007,Property workflow 7,Growth,76.83,49.9,80.4,554491
+PRO004,Property workflow 4,Strategic,76.16,48.6,80.5,556708
+PRO012,Property workflow 12,Core,75.89,48.5,80.9,555729
