@@ -1,17 +1,29 @@
--- Priority queue foundation
-select
-  entity_id,
-  avg(risk_score) as avg_risk_score,
-  avg(quality_score) as avg_quality_score,
-  sum(value_pool) as value_pool
-from daily_metrics
-group by 1
-order by avg_risk_score desc;
+-- Portfolio SQL examples for roadmap prioritization review.
+-- These examples assume the CSVs have been loaded into warehouse tables.
 
--- Action readiness
 select
-  action_type,
-  avg(expected_lift_pct) as expected_lift,
-  avg(effort_hours) as effort_hours
-from recommended_actions
+  linked_opportunity,
+  count(*) as feedback_count,
+  avg(pain_score) as avg_pain_score,
+  sum(case when urgency = 'high' then 1 else 0 end) as high_urgency_count
+from customer_feedback
+group by 1
+order by high_urgency_count desc, avg_pain_score desc;
+
+select
+  opportunity_id,
+  avg(adoption_rate) as avg_adoption_rate,
+  avg(override_rate) as avg_override_rate,
+  avg(approval_latency_hours) as avg_approval_latency_hours,
+  avg(data_freshness_score) as avg_data_freshness_score
+from product_usage
 group by 1;
+
+select
+  name,
+  product_area,
+  priority_score,
+  stage,
+  primary_metric
+from roadmap_priority
+order by priority_score desc;

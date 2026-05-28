@@ -1,0 +1,121 @@
+feedback_id,date,persona,portfolio_units,source,theme,product_area,linked_opportunity,pain_score,urgency,quote_summary
+FB-001,2026-01-14,Portfolio analyst,6400,support thread,AI follow-up questions,AI insights,OPP-008,8,high,Portfolio analyst wants to ask why an anomaly appeared without exporting data.
+FB-002,2026-04-22,Revenue manager,36000,beta feedback,onboarding data quality,Implementation readiness,OPP-006,7,medium,Revenue manager needs stale feed issues surfaced before first pricing review.
+FB-003,2026-04-09,Revenue manager,21000,support thread,concession guardrails,Amenities and specials,OPP-003,7,medium,Revenue manager wants a safer way to compare concessions against leasing velocity.
+FB-004,2026-03-01,Regional operator,36000,beta feedback,comp transparency,Public market intelligence,OPP-002,10,high,Regional operator wants clearer reasons behind comp selection and exclusions.
+FB-005,2026-04-20,Regional operator,21000,beta feedback,renewal confidence,Lease and renewal pricing,OPP-001,8,high,Regional operator needs earlier renewal risk context before recommending price moves.
+FB-006,2026-02-18,Revenue manager,14500,CS note,portfolio scenario planning,Reporting,OPP-005,7,medium,Revenue manager needs to test portfolio goals before changing property strategy.
+FB-007,2026-04-11,Revenue manager,36000,customer interview,concession guardrails,Amenities and specials,OPP-003,6,medium,Revenue manager wants a safer way to compare concessions against leasing velocity.
+FB-008,2026-04-06,Revenue manager,3200,sales call,comp transparency,Public market intelligence,OPP-002,9,high,Revenue manager wants clearer reasons behind comp selection and exclusions.
+FB-009,2026-04-15,Revenue manager,3200,sales call,renewal confidence,Lease and renewal pricing,OPP-001,8,high,Revenue manager needs earlier renewal risk context before recommending price moves.
+FB-010,2026-03-03,Revenue manager,36000,beta feedback,approval auditability,Security and privacy,OPP-007,6,medium,Revenue manager wants approvals and exceptions captured inside the workflow.
+FB-011,2026-03-08,Revenue manager,6400,support thread,onboarding data quality,Implementation readiness,OPP-006,8,high,Revenue manager needs stale feed issues surfaced before first pricing review.
+FB-012,2026-01-27,Regional operator,3200,beta feedback,renewal confidence,Lease and renewal pricing,OPP-001,9,high,Regional operator needs earlier renewal risk context before recommending price moves.
+FB-013,2026-03-28,Asset manager,1800,sales call,comp transparency,Public market intelligence,OPP-002,8,high,Asset manager wants clearer reasons behind comp selection and exclusions.
+FB-014,2026-04-05,Portfolio analyst,21000,customer interview,portfolio scenario planning,Reporting,OPP-005,6,medium,Portfolio analyst needs to test portfolio goals before changing property strategy.
+FB-015,2026-01-08,Asset manager,6400,CS note,portfolio scenario planning,Reporting,OPP-005,7,medium,Asset manager needs to test portfolio goals before changing property strategy.
+FB-016,2026-04-03,Regional operator,1800,customer interview,AI follow-up questions,AI insights,OPP-008,8,high,Regional operator wants to ask why an anomaly appeared without exporting data.
+FB-017,2026-04-25,Asset manager,1800,customer interview,renewal confidence,Lease and renewal pricing,OPP-001,9,high,Asset manager needs earlier renewal risk context before recommending price moves.
+FB-018,2026-03-05,Asset manager,21000,customer interview,approval auditability,Security and privacy,OPP-007,8,high,Asset manager wants approvals and exceptions captured inside the workflow.
+FB-019,2026-03-26,Customer success,3200,CS note,concession guardrails,Amenities and specials,OPP-003,8,high,Customer success wants a safer way to compare concessions against leasing velocity.
+FB-020,2026-04-23,Revenue manager,21000,sales call,approval auditability,Security and privacy,OPP-007,4,low,Revenue manager wants approvals and exceptions captured inside the workflow.
+FB-021,2026-01-11,Portfolio analyst,3200,customer interview,approval auditability,Security and privacy,OPP-007,9,high,Portfolio analyst wants approvals and exceptions captured inside the workflow.
+FB-022,2026-01-23,Asset manager,9800,support thread,comp transparency,Public market intelligence,OPP-002,9,high,Asset manager wants clearer reasons behind comp selection and exclusions.
+FB-023,2026-01-09,Revenue manager,21000,beta feedback,AI follow-up questions,AI insights,OPP-008,5,low,Revenue manager wants to ask why an anomaly appeared without exporting data.
+FB-024,2026-03-06,Asset manager,3200,beta feedback,concession guardrails,Amenities and specials,OPP-003,6,medium,Asset manager wants a safer way to compare concessions against leasing velocity.
+FB-025,2026-04-07,Regional operator,21000,sales call,portfolio scenario planning,Reporting,OPP-005,5,low,Regional operator needs to test portfolio goals before changing property strategy.
+FB-026,2026-01-21,Customer success,9800,support thread,renewal confidence,Lease and renewal pricing,OPP-001,8,high,Customer success needs earlier renewal risk context before recommending price moves.
+FB-027,2026-01-19,Revenue manager,9800,customer interview,comp transparency,Public market intelligence,OPP-002,8,high,Revenue manager wants clearer reasons behind comp selection and exclusions.
+FB-028,2026-01-27,Customer success,36000,support thread,onboarding data quality,Implementation readiness,OPP-006,7,medium,Customer success needs stale feed issues surfaced before first pricing review.
+FB-029,2026-03-23,Revenue manager,14500,beta feedback,renewal confidence,Lease and renewal pricing,OPP-001,8,high,Revenue manager needs earlier renewal risk context before recommending price moves.
+FB-030,2026-03-16,Revenue manager,3200,customer interview,renewal confidence,Lease and renewal pricing,OPP-001,8,high,Revenue manager needs earlier renewal risk context before recommending price moves.
+FB-031,2026-04-05,Asset manager,3200,CS note,AI follow-up questions,AI insights,OPP-008,6,medium,Asset manager wants to ask why an anomaly appeared without exporting data.
+FB-032,2026-03-13,Asset manager,3200,sales call,renewal confidence,Lease and renewal pricing,OPP-001,7,medium,Asset manager needs earlier renewal risk context before recommending price moves.
+FB-033,2026-03-21,Asset manager,36000,customer interview,approval auditability,Security and privacy,OPP-007,7,medium,Asset manager wants approvals and exceptions captured inside the workflow.
+FB-034,2026-03-24,Revenue manager,9800,support thread,concession guardrails,Amenities and specials,OPP-003,8,high,Revenue manager wants a safer way to compare concessions against leasing velocity.
+FB-035,2026-03-31,Asset manager,14500,beta feedback,comp transparency,Public market intelligence,OPP-002,8,high,Asset manager wants clearer reasons behind comp selection and exclusions.
+FB-036,2026-03-16,Portfolio analyst,9800,sales call,onboarding data quality,Implementation readiness,OPP-006,6,medium,Portfolio analyst needs stale feed issues surfaced before first pricing review.
+FB-037,2026-02-13,Asset manager,36000,beta feedback,comp transparency,Public market intelligence,OPP-002,7,medium,Asset manager wants clearer reasons behind comp selection and exclusions.
+FB-038,2026-03-30,Regional operator,3200,support thread,amenity pricing,Amenities and specials,OPP-004,7,medium,Regional operator sees amenity premiums drifting from current demand patterns.
+FB-039,2026-02-12,Revenue manager,21000,CS note,amenity pricing,Amenities and specials,OPP-004,5,low,Revenue manager sees amenity premiums drifting from current demand patterns.
+FB-040,2026-02-28,Asset manager,6400,customer interview,approval auditability,Security and privacy,OPP-007,7,medium,Asset manager wants approvals and exceptions captured inside the workflow.
+FB-041,2026-01-13,Revenue manager,9800,CS note,concession guardrails,Amenities and specials,OPP-003,7,medium,Revenue manager wants a safer way to compare concessions against leasing velocity.
+FB-042,2026-01-20,Customer success,3200,CS note,portfolio scenario planning,Reporting,OPP-005,7,medium,Customer success needs to test portfolio goals before changing property strategy.
+FB-043,2026-03-26,Regional operator,6400,sales call,portfolio scenario planning,Reporting,OPP-005,6,medium,Regional operator needs to test portfolio goals before changing property strategy.
+FB-044,2026-03-29,Portfolio analyst,1800,beta feedback,renewal confidence,Lease and renewal pricing,OPP-001,6,medium,Portfolio analyst needs earlier renewal risk context before recommending price moves.
+FB-045,2026-02-18,Revenue manager,21000,CS note,comp transparency,Public market intelligence,OPP-002,8,high,Revenue manager wants clearer reasons behind comp selection and exclusions.
+FB-046,2026-01-08,Portfolio analyst,21000,CS note,comp transparency,Public market intelligence,OPP-002,10,high,Portfolio analyst wants clearer reasons behind comp selection and exclusions.
+FB-047,2026-01-06,Portfolio analyst,9800,customer interview,renewal confidence,Lease and renewal pricing,OPP-001,8,high,Portfolio analyst needs earlier renewal risk context before recommending price moves.
+FB-048,2026-04-02,Asset manager,1800,customer interview,renewal confidence,Lease and renewal pricing,OPP-001,9,high,Asset manager needs earlier renewal risk context before recommending price moves.
+FB-049,2026-01-08,Portfolio analyst,14500,sales call,concession guardrails,Amenities and specials,OPP-003,7,medium,Portfolio analyst wants a safer way to compare concessions against leasing velocity.
+FB-050,2026-04-11,Portfolio analyst,1800,sales call,AI follow-up questions,AI insights,OPP-008,6,medium,Portfolio analyst wants to ask why an anomaly appeared without exporting data.
+FB-051,2026-02-10,Asset manager,21000,CS note,comp transparency,Public market intelligence,OPP-002,9,high,Asset manager wants clearer reasons behind comp selection and exclusions.
+FB-052,2026-04-15,Revenue manager,9800,support thread,onboarding data quality,Implementation readiness,OPP-006,8,high,Revenue manager needs stale feed issues surfaced before first pricing review.
+FB-053,2026-03-02,Regional operator,9800,support thread,AI follow-up questions,AI insights,OPP-008,9,high,Regional operator wants to ask why an anomaly appeared without exporting data.
+FB-054,2026-03-02,Owner,9800,CS note,approval auditability,Security and privacy,OPP-007,7,medium,Owner wants approvals and exceptions captured inside the workflow.
+FB-055,2026-01-30,Revenue manager,36000,CS note,comp transparency,Public market intelligence,OPP-002,9,high,Revenue manager wants clearer reasons behind comp selection and exclusions.
+FB-056,2026-03-12,Asset manager,21000,beta feedback,portfolio scenario planning,Reporting,OPP-005,6,medium,Asset manager needs to test portfolio goals before changing property strategy.
+FB-057,2026-04-27,Portfolio analyst,36000,customer interview,onboarding data quality,Implementation readiness,OPP-006,7,medium,Portfolio analyst needs stale feed issues surfaced before first pricing review.
+FB-058,2026-01-09,Revenue manager,14500,support thread,AI follow-up questions,AI insights,OPP-008,8,high,Revenue manager wants to ask why an anomaly appeared without exporting data.
+FB-059,2026-02-07,Owner,14500,beta feedback,renewal confidence,Lease and renewal pricing,OPP-001,10,high,Owner needs earlier renewal risk context before recommending price moves.
+FB-060,2026-04-18,Asset manager,36000,beta feedback,renewal confidence,Lease and renewal pricing,OPP-001,8,high,Asset manager needs earlier renewal risk context before recommending price moves.
+FB-061,2026-02-25,Customer success,14500,beta feedback,comp transparency,Public market intelligence,OPP-002,7,medium,Customer success wants clearer reasons behind comp selection and exclusions.
+FB-062,2026-03-18,Customer success,3200,customer interview,onboarding data quality,Implementation readiness,OPP-006,7,medium,Customer success needs stale feed issues surfaced before first pricing review.
+FB-063,2026-03-04,Revenue manager,1800,beta feedback,portfolio scenario planning,Reporting,OPP-005,6,medium,Revenue manager needs to test portfolio goals before changing property strategy.
+FB-064,2026-03-11,Portfolio analyst,9800,customer interview,concession guardrails,Amenities and specials,OPP-003,6,medium,Portfolio analyst wants a safer way to compare concessions against leasing velocity.
+FB-065,2026-04-26,Portfolio analyst,14500,customer interview,amenity pricing,Amenities and specials,OPP-004,9,high,Portfolio analyst sees amenity premiums drifting from current demand patterns.
+FB-066,2026-04-21,Revenue manager,36000,CS note,portfolio scenario planning,Reporting,OPP-005,6,medium,Revenue manager needs to test portfolio goals before changing property strategy.
+FB-067,2026-04-12,Asset manager,9800,support thread,concession guardrails,Amenities and specials,OPP-003,8,high,Asset manager wants a safer way to compare concessions against leasing velocity.
+FB-068,2026-01-30,Customer success,1800,support thread,AI follow-up questions,AI insights,OPP-008,7,medium,Customer success wants to ask why an anomaly appeared without exporting data.
+FB-069,2026-02-09,Revenue manager,3200,sales call,approval auditability,Security and privacy,OPP-007,6,medium,Revenue manager wants approvals and exceptions captured inside the workflow.
+FB-070,2026-02-28,Regional operator,1800,beta feedback,AI follow-up questions,AI insights,OPP-008,5,low,Regional operator wants to ask why an anomaly appeared without exporting data.
+FB-071,2026-01-18,Asset manager,6400,sales call,approval auditability,Security and privacy,OPP-007,4,low,Asset manager wants approvals and exceptions captured inside the workflow.
+FB-072,2026-01-20,Portfolio analyst,36000,customer interview,concession guardrails,Amenities and specials,OPP-003,4,low,Portfolio analyst wants a safer way to compare concessions against leasing velocity.
+FB-073,2026-02-26,Asset manager,3200,beta feedback,onboarding data quality,Implementation readiness,OPP-006,6,medium,Asset manager needs stale feed issues surfaced before first pricing review.
+FB-074,2026-01-14,Regional operator,21000,beta feedback,concession guardrails,Amenities and specials,OPP-003,6,medium,Regional operator wants a safer way to compare concessions against leasing velocity.
+FB-075,2026-04-25,Asset manager,36000,customer interview,portfolio scenario planning,Reporting,OPP-005,5,low,Asset manager needs to test portfolio goals before changing property strategy.
+FB-076,2026-04-04,Regional operator,9800,customer interview,renewal confidence,Lease and renewal pricing,OPP-001,8,high,Regional operator needs earlier renewal risk context before recommending price moves.
+FB-077,2026-02-10,Revenue manager,14500,beta feedback,AI follow-up questions,AI insights,OPP-008,7,medium,Revenue manager wants to ask why an anomaly appeared without exporting data.
+FB-078,2026-04-03,Regional operator,9800,beta feedback,AI follow-up questions,AI insights,OPP-008,6,medium,Regional operator wants to ask why an anomaly appeared without exporting data.
+FB-079,2026-04-25,Asset manager,9800,CS note,comp transparency,Public market intelligence,OPP-002,8,high,Asset manager wants clearer reasons behind comp selection and exclusions.
+FB-080,2026-04-09,Regional operator,9800,support thread,renewal confidence,Lease and renewal pricing,OPP-001,10,high,Regional operator needs earlier renewal risk context before recommending price moves.
+FB-081,2026-04-07,Portfolio analyst,21000,sales call,onboarding data quality,Implementation readiness,OPP-006,7,medium,Portfolio analyst needs stale feed issues surfaced before first pricing review.
+FB-082,2026-02-21,Customer success,3200,beta feedback,AI follow-up questions,AI insights,OPP-008,6,medium,Customer success wants to ask why an anomaly appeared without exporting data.
+FB-083,2026-01-26,Customer success,1800,beta feedback,comp transparency,Public market intelligence,OPP-002,8,high,Customer success wants clearer reasons behind comp selection and exclusions.
+FB-084,2026-01-13,Revenue manager,21000,sales call,renewal confidence,Lease and renewal pricing,OPP-001,9,high,Revenue manager needs earlier renewal risk context before recommending price moves.
+FB-085,2026-01-24,Portfolio analyst,1800,beta feedback,AI follow-up questions,AI insights,OPP-008,10,high,Portfolio analyst wants to ask why an anomaly appeared without exporting data.
+FB-086,2026-01-20,Revenue manager,3200,beta feedback,approval auditability,Security and privacy,OPP-007,7,medium,Revenue manager wants approvals and exceptions captured inside the workflow.
+FB-087,2026-03-17,Asset manager,21000,customer interview,onboarding data quality,Implementation readiness,OPP-006,5,low,Asset manager needs stale feed issues surfaced before first pricing review.
+FB-088,2026-02-12,Portfolio analyst,21000,support thread,approval auditability,Security and privacy,OPP-007,6,medium,Portfolio analyst wants approvals and exceptions captured inside the workflow.
+FB-089,2026-01-31,Revenue manager,36000,CS note,approval auditability,Security and privacy,OPP-007,6,medium,Revenue manager wants approvals and exceptions captured inside the workflow.
+FB-090,2026-03-09,Revenue manager,21000,customer interview,onboarding data quality,Implementation readiness,OPP-006,9,high,Revenue manager needs stale feed issues surfaced before first pricing review.
+FB-091,2026-01-30,Revenue manager,36000,CS note,onboarding data quality,Implementation readiness,OPP-006,6,medium,Revenue manager needs stale feed issues surfaced before first pricing review.
+FB-092,2026-04-09,Revenue manager,36000,support thread,concession guardrails,Amenities and specials,OPP-003,8,high,Revenue manager wants a safer way to compare concessions against leasing velocity.
+FB-093,2026-04-26,Revenue manager,14500,support thread,amenity pricing,Amenities and specials,OPP-004,4,low,Revenue manager sees amenity premiums drifting from current demand patterns.
+FB-094,2026-01-16,Revenue manager,1800,customer interview,concession guardrails,Amenities and specials,OPP-003,6,medium,Revenue manager wants a safer way to compare concessions against leasing velocity.
+FB-095,2026-01-29,Revenue manager,14500,CS note,portfolio scenario planning,Reporting,OPP-005,9,high,Revenue manager needs to test portfolio goals before changing property strategy.
+FB-096,2026-02-18,Regional operator,1800,CS note,portfolio scenario planning,Reporting,OPP-005,8,high,Regional operator needs to test portfolio goals before changing property strategy.
+FB-097,2026-02-04,Revenue manager,1800,sales call,comp transparency,Public market intelligence,OPP-002,10,high,Revenue manager wants clearer reasons behind comp selection and exclusions.
+FB-098,2026-04-15,Customer success,1800,sales call,renewal confidence,Lease and renewal pricing,OPP-001,7,medium,Customer success needs earlier renewal risk context before recommending price moves.
+FB-099,2026-04-15,Owner,6400,beta feedback,portfolio scenario planning,Reporting,OPP-005,7,medium,Owner needs to test portfolio goals before changing property strategy.
+FB-100,2026-02-26,Revenue manager,21000,beta feedback,approval auditability,Security and privacy,OPP-007,6,medium,Revenue manager wants approvals and exceptions captured inside the workflow.
+FB-101,2026-04-22,Asset manager,1800,beta feedback,amenity pricing,Amenities and specials,OPP-004,8,high,Asset manager sees amenity premiums drifting from current demand patterns.
+FB-102,2026-04-25,Revenue manager,36000,CS note,portfolio scenario planning,Reporting,OPP-005,7,medium,Revenue manager needs to test portfolio goals before changing property strategy.
+FB-103,2026-04-09,Regional operator,3200,customer interview,concession guardrails,Amenities and specials,OPP-003,3,low,Regional operator wants a safer way to compare concessions against leasing velocity.
+FB-104,2026-02-17,Portfolio analyst,1800,beta feedback,onboarding data quality,Implementation readiness,OPP-006,7,medium,Portfolio analyst needs stale feed issues surfaced before first pricing review.
+FB-105,2026-02-01,Portfolio analyst,14500,support thread,portfolio scenario planning,Reporting,OPP-005,4,low,Portfolio analyst needs to test portfolio goals before changing property strategy.
+FB-106,2026-04-16,Revenue manager,14500,sales call,AI follow-up questions,AI insights,OPP-008,6,medium,Revenue manager wants to ask why an anomaly appeared without exporting data.
+FB-107,2026-03-22,Owner,36000,CS note,amenity pricing,Amenities and specials,OPP-004,6,medium,Owner sees amenity premiums drifting from current demand patterns.
+FB-108,2026-02-04,Portfolio analyst,36000,beta feedback,concession guardrails,Amenities and specials,OPP-003,10,high,Portfolio analyst wants a safer way to compare concessions against leasing velocity.
+FB-109,2026-03-25,Asset manager,36000,CS note,concession guardrails,Amenities and specials,OPP-003,5,low,Asset manager wants a safer way to compare concessions against leasing velocity.
+FB-110,2026-03-09,Revenue manager,36000,support thread,approval auditability,Security and privacy,OPP-007,5,low,Revenue manager wants approvals and exceptions captured inside the workflow.
+FB-111,2026-01-26,Revenue manager,9800,beta feedback,concession guardrails,Amenities and specials,OPP-003,8,high,Revenue manager wants a safer way to compare concessions against leasing velocity.
+FB-112,2026-03-13,Asset manager,3200,sales call,amenity pricing,Amenities and specials,OPP-004,6,medium,Asset manager sees amenity premiums drifting from current demand patterns.
+FB-113,2026-03-26,Revenue manager,21000,support thread,portfolio scenario planning,Reporting,OPP-005,6,medium,Revenue manager needs to test portfolio goals before changing property strategy.
+FB-114,2026-04-02,Regional operator,9800,customer interview,amenity pricing,Amenities and specials,OPP-004,7,medium,Regional operator sees amenity premiums drifting from current demand patterns.
+FB-115,2026-03-15,Asset manager,1800,CS note,concession guardrails,Amenities and specials,OPP-003,6,medium,Asset manager wants a safer way to compare concessions against leasing velocity.
+FB-116,2026-03-17,Portfolio analyst,36000,support thread,AI follow-up questions,AI insights,OPP-008,6,medium,Portfolio analyst wants to ask why an anomaly appeared without exporting data.
+FB-117,2026-03-16,Owner,3200,beta feedback,approval auditability,Security and privacy,OPP-007,6,medium,Owner wants approvals and exceptions captured inside the workflow.
+FB-118,2026-02-04,Asset manager,14500,CS note,amenity pricing,Amenities and specials,OPP-004,6,medium,Asset manager sees amenity premiums drifting from current demand patterns.
+FB-119,2026-02-03,Regional operator,14500,customer interview,amenity pricing,Amenities and specials,OPP-004,7,medium,Regional operator sees amenity premiums drifting from current demand patterns.
+FB-120,2026-03-18,Asset manager,1800,beta feedback,renewal confidence,Lease and renewal pricing,OPP-001,10,high,Asset manager needs earlier renewal risk context before recommending price moves.

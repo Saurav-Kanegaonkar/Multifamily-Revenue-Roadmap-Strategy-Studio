@@ -6,24 +6,111 @@
   <title>Multifamily Revenue Roadmap Strategy Studio</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body class="ai-discovery" style="--accent:#a16207;--bg:#fff7ed">
-  <main class="ai-shell">
-    <header class="ai-hero">
-      <p>AI product discovery studio</p>
-      <h1>Multifamily Revenue Roadmap Strategy Studio</h1>
-      <span>Blends interview evidence, community feedback, product telemetry, competitive research, and prompt-test notes into PRD-ready choices.</span>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Portfolio artifact</p>
+        <h1>Multifamily Revenue Roadmap Strategy Studio</h1>
+      </div>
+      <nav class="tabs" aria-label="Artifact sections">
+        <button class="tab-button active" type="button" data-view="evidence">Evidence</button>
+        <button class="tab-button" type="button" data-view="roadmap">Roadmap</button>
+        <button class="tab-button" type="button" data-view="prd">PRD</button>
+      </nav>
     </header>
-    <section class="prd-grid">
-      <article class="memo"><b>01</b><h2>User Pull</h2><p>Power users want faster ideation, but community threads show low tolerance for black-box creative controls.</p></article>
-      <article class="memo"><b>02</b><h2>Edge Cases</h2><p>Prompt ambiguity, asset ownership, and revision memory are the highest-risk requirements before launch.</p></article>
-      <article class="memo"><b>03</b><h2>Roadmap Bet</h2><p>Ship a narrow feedback loop around saved prompts before expanding into a broader creative workflow suite.</p></article>
+
+    <section class="hero-panel">
+      <div>
+        <p class="eyebrow">Product problem</p>
+        <h2>Turn customer workflow noise into a roadmap bet that a pricing platform team can build, launch, and measure.</h2>
+      </div>
+      <div class="hero-copy">
+        <p>This artifact combines customer interview evidence, product telemetry, compliance risk, and engineering capacity into a PRD-ready launch recommendation for a multifamily revenue intelligence product.</p>
+      </div>
     </section>
-    <section class="experiment-wall">
-      <h2>Launch Readout</h2>
-      <div><span>Activation lift</span><strong>+20%</strong></div>
-      <div><span>Escalation risk</span><strong>-21%</strong></div>
-      <div><span>Research hours</span><strong>-18</strong></div>
+
+    <section class="metric-grid" id="metricGrid" aria-label="Project metrics"></section>
+
+    <section class="view active" id="evidenceView" aria-labelledby="evidenceTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 1</p>
+          <h2 id="evidenceTitle">Evidence Intake</h2>
+        </div>
+        <p>Interview themes, telemetry signals, and customer sources are grouped by product opportunity.</p>
+      </div>
+      <div class="evidence-layout">
+        <article class="panel">
+          <h3>Theme Pull</h3>
+          <div class="bar-list" id="themeBars"></div>
+        </article>
+        <article class="panel">
+          <h3>Persona Mix</h3>
+          <div class="bar-list compact" id="personaBars"></div>
+        </article>
+        <article class="panel wide">
+          <h3>Recent Evidence</h3>
+          <div class="feedback-list" id="feedbackList"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="roadmapView" aria-labelledby="roadmapTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 2</p>
+          <h2 id="roadmapTitle">Roadmap Prioritization</h2>
+        </div>
+        <p>Each opportunity is scored by customer pull, revenue impact, strategy fit, confidence, effort, and risk.</p>
+      </div>
+      <div class="roadmap-layout">
+        <article class="panel priority-panel">
+          <h3>Priority Queue</h3>
+          <div id="priorityQueue"></div>
+        </article>
+        <article class="panel">
+          <h3>Scoring Model</h3>
+          <dl class="score-model">
+            <div><dt>28%</dt><dd>Customer pull</dd></div>
+            <div><dt>24%</dt><dd>Revenue impact</dd></div>
+            <div><dt>20%</dt><dd>Strategy fit</dd></div>
+            <div><dt>18%</dt><dd>Confidence</dd></div>
+            <div><dt>-6%</dt><dd>Engineering effort</dd></div>
+            <div><dt>-4%</dt><dd>Compliance risk</dd></div>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="prdView" aria-labelledby="prdTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 3</p>
+          <h2 id="prdTitle">PRD And Launch Plan</h2>
+        </div>
+        <p>The winning opportunity is translated into requirements, non-goals, launch gates, risks, and instrumentation.</p>
+      </div>
+      <div class="prd-layout">
+        <article class="panel selected-brief" id="selectedBrief"></article>
+        <article class="panel">
+          <h3>Requirements</h3>
+          <ul class="check-list" id="requirementsList"></ul>
+        </article>
+        <article class="panel">
+          <h3>Launch Gates</h3>
+          <div class="launch-list" id="launchList"></div>
+        </article>
+        <article class="panel">
+          <h3>Risks And Non-Goals</h3>
+          <div class="two-column">
+            <ul id="riskList"></ul>
+            <ul id="nonGoalList"></ul>
+          </div>
+        </article>
+      </div>
     </section>
   </main>
+  <script src="src/app.js"></script>
 </body>
 </html>

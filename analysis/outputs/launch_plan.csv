@@ -1,0 +1,6 @@
+phase,owner,gate,metric,status
+Discovery close,Product,Confirm top three renewal workflows with five customer calls,problem validation rate >= 70%,ready
+Design partner beta,Product and Design,"Prototype queue, explanation cards, and exception notes with design partners",task success >= 80%,planned
+Engineering build,Engineering,Ship renewal risk copilot behind account-level feature flag,p95 queue load < 1.5 seconds,planned
+Compliance review,Product and Legal,"Review data fields, explanations, and audit events for fair housing sensitivity",zero unresolved launch blockers,planned
+GA readiness,"Product, CS, Sales","Enable playbook, release notes, training, and adoption dashboard",beta adoption >= 60% and support rate <= 2 tickets per account,planned

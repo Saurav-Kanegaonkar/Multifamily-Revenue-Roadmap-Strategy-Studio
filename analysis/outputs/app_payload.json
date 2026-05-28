@@ -1,0 +1,581 @@
+{
+  "generated_on": "2026-05-27",
+  "summary": {
+    "title": "Multifamily Revenue Roadmap Strategy Studio",
+    "subtitle": "A PM artifact for turning customer evidence and product telemetry into a PRD-ready roadmap bet.",
+    "domain": "multifamily revenue intelligence",
+    "top_opportunity": {
+      "id": "OPP-001",
+      "name": "Renewal risk copilot",
+      "product_area": "Lease and renewal pricing",
+      "persona": "Revenue manager",
+      "problem": "Teams need earlier renewal risk signals when lease trade-outs, occupancy, and local comps move in different directions.",
+      "hypothesis": "A guided renewal risk queue will reduce manual review time and improve renewal pricing confidence.",
+      "primary_metric": "renewal recommendation adoption",
+      "north_star_lift": 7.5,
+      "engineering_effort": 6,
+      "compliance_risk": 4,
+      "dependencies": "Pricing service, renewal event feed, comp explanation cards",
+      "feedback_count": 18,
+      "high_urgency_count": 15,
+      "avg_pain_score": 8.3,
+      "avg_adoption_rate": 0.626,
+      "avg_override_rate": 0.183,
+      "data_freshness_score": 0.902,
+      "customer_pull": 99.7,
+      "revenue_impact": 89.2,
+      "strategy_fit": 94,
+      "confidence": 99.6,
+      "priority_score": 83.3,
+      "stage": "Beta candidate"
+    },
+    "metrics": [
+      {
+        "label": "Feedback records",
+        "value": 120,
+        "context": "synthetic customer evidence"
+      },
+      {
+        "label": "Telemetry rows",
+        "value": 960,
+        "context": "120 days x 8 opportunities"
+      },
+      {
+        "label": "Top score",
+        "value": 83.3,
+        "context": "Renewal risk copilot"
+      },
+      {
+        "label": "Beta gates",
+        "value": 5,
+        "context": "concept to GA"
+      }
+    ]
+  },
+  "evidence": {
+    "theme_counts": [
+      {
+        "name": "concession guardrails",
+        "count": 18
+      },
+      {
+        "name": "renewal confidence",
+        "count": 18
+      },
+      {
+        "name": "portfolio scenario planning",
+        "count": 16
+      },
+      {
+        "name": "AI follow-up questions",
+        "count": 15
+      },
+      {
+        "name": "comp transparency",
+        "count": 15
+      },
+      {
+        "name": "approval auditability",
+        "count": 15
+      },
+      {
+        "name": "onboarding data quality",
+        "count": 13
+      },
+      {
+        "name": "amenity pricing",
+        "count": 10
+      }
+    ],
+    "persona_counts": [
+      {
+        "name": "Revenue manager",
+        "count": 40
+      },
+      {
+        "name": "Asset manager",
+        "count": 28
+      },
+      {
+        "name": "Portfolio analyst",
+        "count": 20
+      },
+      {
+        "name": "Regional operator",
+        "count": 17
+      },
+      {
+        "name": "Customer success",
+        "count": 10
+      },
+      {
+        "name": "Owner",
+        "count": 5
+      }
+    ],
+    "source_counts": [
+      {
+        "name": "beta feedback",
+        "count": 33
+      },
+      {
+        "name": "customer interview",
+        "count": 25
+      },
+      {
+        "name": "CS note",
+        "count": 23
+      },
+      {
+        "name": "support thread",
+        "count": 21
+      },
+      {
+        "name": "sales call",
+        "count": 18
+      }
+    ],
+    "recent_feedback": [
+      {
+        "feedback_id": "FB-057",
+        "date": "2026-04-27",
+        "persona": "Portfolio analyst",
+        "portfolio_units": 36000,
+        "source": "customer interview",
+        "theme": "onboarding data quality",
+        "product_area": "Implementation readiness",
+        "linked_opportunity": "OPP-006",
+        "pain_score": 7,
+        "urgency": "medium",
+        "quote_summary": "Portfolio analyst needs stale feed issues surfaced before first pricing review."
+      },
+      {
+        "feedback_id": "FB-065",
+        "date": "2026-04-26",
+        "persona": "Portfolio analyst",
+        "portfolio_units": 14500,
+        "source": "customer interview",
+        "theme": "amenity pricing",
+        "product_area": "Amenities and specials",
+        "linked_opportunity": "OPP-004",
+        "pain_score": 9,
+        "urgency": "high",
+        "quote_summary": "Portfolio analyst sees amenity premiums drifting from current demand patterns."
+      },
+      {
+        "feedback_id": "FB-093",
+        "date": "2026-04-26",
+        "persona": "Revenue manager",
+        "portfolio_units": 14500,
+        "source": "support thread",
+        "theme": "amenity pricing",
+        "product_area": "Amenities and specials",
+        "linked_opportunity": "OPP-004",
+        "pain_score": 4,
+        "urgency": "low",
+        "quote_summary": "Revenue manager sees amenity premiums drifting from current demand patterns."
+      },
+      {
+        "feedback_id": "FB-017",
+        "date": "2026-04-25",
+        "persona": "Asset manager",
+        "portfolio_units": 1800,
+        "source": "customer interview",
+        "theme": "renewal confidence",
+        "product_area": "Lease and renewal pricing",
+        "linked_opportunity": "OPP-001",
+        "pain_score": 9,
+        "urgency": "high",
+        "quote_summary": "Asset manager needs earlier renewal risk context before recommending price moves."
+      },
+      {
+        "feedback_id": "FB-075",
+        "date": "2026-04-25",
+        "persona": "Asset manager",
+        "portfolio_units": 36000,
+        "source": "customer interview",
+        "theme": "portfolio scenario planning",
+        "product_area": "Reporting",
+        "linked_opportunity": "OPP-005",
+        "pain_score": 5,
+        "urgency": "low",
+        "quote_summary": "Asset manager needs to test portfolio goals before changing property strategy."
+      },
+      {
+        "feedback_id": "FB-079",
+        "date": "2026-04-25",
+        "persona": "Asset manager",
+        "portfolio_units": 9800,
+        "source": "CS note",
+        "theme": "comp transparency",
+        "product_area": "Public market intelligence",
+        "linked_opportunity": "OPP-002",
+        "pain_score": 8,
+        "urgency": "high",
+        "quote_summary": "Asset manager wants clearer reasons behind comp selection and exclusions."
+      },
+      {
+        "feedback_id": "FB-102",
+        "date": "2026-04-25",
+        "persona": "Revenue manager",
+        "portfolio_units": 36000,
+        "source": "CS note",
+        "theme": "portfolio scenario planning",
+        "product_area": "Reporting",
+        "linked_opportunity": "OPP-005",
+        "pain_score": 7,
+        "urgency": "medium",
+        "quote_summary": "Revenue manager needs to test portfolio goals before changing property strategy."
+      },
+      {
+        "feedback_id": "FB-020",
+        "date": "2026-04-23",
+        "persona": "Revenue manager",
+        "portfolio_units": 21000,
+        "source": "sales call",
+        "theme": "approval auditability",
+        "product_area": "Security and privacy",
+        "linked_opportunity": "OPP-007",
+        "pain_score": 4,
+        "urgency": "low",
+        "quote_summary": "Revenue manager wants approvals and exceptions captured inside the workflow."
+      },
+      {
+        "feedback_id": "FB-002",
+        "date": "2026-04-22",
+        "persona": "Revenue manager",
+        "portfolio_units": 36000,
+        "source": "beta feedback",
+        "theme": "onboarding data quality",
+        "product_area": "Implementation readiness",
+        "linked_opportunity": "OPP-006",
+        "pain_score": 7,
+        "urgency": "medium",
+        "quote_summary": "Revenue manager needs stale feed issues surfaced before first pricing review."
+      },
+      {
+        "feedback_id": "FB-101",
+        "date": "2026-04-22",
+        "persona": "Asset manager",
+        "portfolio_units": 1800,
+        "source": "beta feedback",
+        "theme": "amenity pricing",
+        "product_area": "Amenities and specials",
+        "linked_opportunity": "OPP-004",
+        "pain_score": 8,
+        "urgency": "high",
+        "quote_summary": "Asset manager sees amenity premiums drifting from current demand patterns."
+      },
+      {
+        "feedback_id": "FB-066",
+        "date": "2026-04-21",
+        "persona": "Revenue manager",
+        "portfolio_units": 36000,
+        "source": "CS note",
+        "theme": "portfolio scenario planning",
+        "product_area": "Reporting",
+        "linked_opportunity": "OPP-005",
+        "pain_score": 6,
+        "urgency": "medium",
+        "quote_summary": "Revenue manager needs to test portfolio goals before changing property strategy."
+      },
+      {
+        "feedback_id": "FB-005",
+        "date": "2026-04-20",
+        "persona": "Regional operator",
+        "portfolio_units": 21000,
+        "source": "beta feedback",
+        "theme": "renewal confidence",
+        "product_area": "Lease and renewal pricing",
+        "linked_opportunity": "OPP-001",
+        "pain_score": 8,
+        "urgency": "high",
+        "quote_summary": "Regional operator needs earlier renewal risk context before recommending price moves."
+      }
+    ]
+  },
+  "roadmap": [
+    {
+      "id": "OPP-001",
+      "name": "Renewal risk copilot",
+      "product_area": "Lease and renewal pricing",
+      "persona": "Revenue manager",
+      "problem": "Teams need earlier renewal risk signals when lease trade-outs, occupancy, and local comps move in different directions.",
+      "hypothesis": "A guided renewal risk queue will reduce manual review time and improve renewal pricing confidence.",
+      "primary_metric": "renewal recommendation adoption",
+      "north_star_lift": 7.5,
+      "engineering_effort": 6,
+      "compliance_risk": 4,
+      "dependencies": "Pricing service, renewal event feed, comp explanation cards",
+      "feedback_count": 18,
+      "high_urgency_count": 15,
+      "avg_pain_score": 8.3,
+      "avg_adoption_rate": 0.626,
+      "avg_override_rate": 0.183,
+      "data_freshness_score": 0.902,
+      "customer_pull": 99.7,
+      "revenue_impact": 89.2,
+      "strategy_fit": 94,
+      "confidence": 99.6,
+      "priority_score": 83.3,
+      "stage": "Beta candidate"
+    },
+    {
+      "id": "OPP-002",
+      "name": "Explainable comp set builder",
+      "product_area": "Public market intelligence",
+      "persona": "Asset manager",
+      "problem": "Users trust pricing recommendations faster when they can see why a comp property was included or excluded.",
+      "hypothesis": "Transparent comp rationale will reduce overrides caused by low trust.",
+      "primary_metric": "pricing override rate",
+      "north_star_lift": 5.9,
+      "engineering_effort": 5,
+      "compliance_risk": 3,
+      "dependencies": "Comp ingestion, geospatial filters, data freshness checks",
+      "feedback_count": 15,
+      "high_urgency_count": 13,
+      "avg_pain_score": 8.5,
+      "avg_adoption_rate": 0.571,
+      "avg_override_rate": 0.213,
+      "data_freshness_score": 0.909,
+      "customer_pull": 96.9,
+      "revenue_impact": 73.4,
+      "strategy_fit": 88,
+      "confidence": 88.0,
+      "priority_score": 75.9,
+      "stage": "Beta candidate"
+    },
+    {
+      "id": "OPP-003",
+      "name": "Specials and concessions guardrails",
+      "product_area": "Amenities and specials",
+      "persona": "Regional operator",
+      "problem": "Operators need guardrails that explain when concessions improve velocity and when they dilute revenue.",
+      "hypothesis": "A guardrail workflow will improve concession decisions during soft demand periods.",
+      "primary_metric": "approved concession variance",
+      "north_star_lift": 6.8,
+      "engineering_effort": 7,
+      "compliance_risk": 5,
+      "dependencies": "Specials feed, occupancy forecast, approval workflow",
+      "feedback_count": 18,
+      "high_urgency_count": 6,
+      "avg_pain_score": 6.6,
+      "avg_adoption_rate": 0.607,
+      "avg_override_rate": 0.194,
+      "data_freshness_score": 0.901,
+      "customer_pull": 66.1,
+      "revenue_impact": 82.3,
+      "strategy_fit": 82,
+      "confidence": 98.8,
+      "priority_score": 69.1,
+      "stage": "Discovery"
+    },
+    {
+      "id": "OPP-008",
+      "name": "Conversational insight follow-up",
+      "product_area": "AI insights",
+      "persona": "Revenue manager",
+      "problem": "Users want to ask follow-up questions when the system flags a revenue anomaly.",
+      "hypothesis": "Conversational drill-down will shorten analysis time for anomaly investigation.",
+      "primary_metric": "insight follow-up completion",
+      "north_star_lift": 6.4,
+      "engineering_effort": 8,
+      "compliance_risk": 6,
+      "dependencies": "Insight store, permissions, retrieval evaluation",
+      "feedback_count": 15,
+      "high_urgency_count": 5,
+      "avg_pain_score": 6.9,
+      "avg_adoption_rate": 0.592,
+      "avg_override_rate": 0.195,
+      "data_freshness_score": 0.91,
+      "customer_pull": 65.9,
+      "revenue_impact": 78.5,
+      "strategy_fit": 86,
+      "confidence": 88.9,
+      "priority_score": 66.7,
+      "stage": "Discovery"
+    },
+    {
+      "id": "OPP-006",
+      "name": "Data quality launch gate",
+      "product_area": "Implementation readiness",
+      "persona": "Customer success",
+      "problem": "Pricing users lose confidence when rent roll, renewal, or comp feeds are stale during onboarding.",
+      "hypothesis": "A launch gate will prevent poor first-week experiences and speed time to value.",
+      "primary_metric": "same-week launch readiness",
+      "north_star_lift": 5.4,
+      "engineering_effort": 4,
+      "compliance_risk": 2,
+      "dependencies": "Ingestion monitor, property setup checklist, CS workflow",
+      "feedback_count": 13,
+      "high_urgency_count": 3,
+      "avg_pain_score": 6.9,
+      "avg_adoption_rate": 0.555,
+      "avg_override_rate": 0.224,
+      "data_freshness_score": 0.914,
+      "customer_pull": 62.0,
+      "revenue_impact": 68.4,
+      "strategy_fit": 84,
+      "confidence": 81.2,
+      "priority_score": 63.4,
+      "stage": "Backlog"
+    },
+    {
+      "id": "OPP-005",
+      "name": "Portfolio goal scenario planner",
+      "product_area": "Reporting",
+      "persona": "Owner",
+      "problem": "Executives want to test revenue, occupancy, and concession goals before pushing strategy changes to properties.",
+      "hypothesis": "Scenario planning will align portfolio goals with property-level pricing decisions.",
+      "primary_metric": "scenario to action conversion",
+      "north_star_lift": 6.1,
+      "engineering_effort": 9,
+      "compliance_risk": 4,
+      "dependencies": "Goal model, reporting aggregates, permissions",
+      "feedback_count": 16,
+      "high_urgency_count": 2,
+      "avg_pain_score": 6.4,
+      "avg_adoption_rate": 0.573,
+      "avg_override_rate": 0.214,
+      "data_freshness_score": 0.902,
+      "customer_pull": 55.4,
+      "revenue_impact": 75.2,
+      "strategy_fit": 78,
+      "confidence": 91.1,
+      "priority_score": 61.7,
+      "stage": "Backlog"
+    },
+    {
+      "id": "OPP-007",
+      "name": "Approval workflow and audit trail",
+      "product_area": "Security and privacy",
+      "persona": "Regional operator",
+      "problem": "Operators need to document who approved pricing changes, exceptions, and fair housing review notes.",
+      "hypothesis": "A lightweight approval flow will reduce offline approvals and increase enterprise readiness.",
+      "primary_metric": "offline approval reduction",
+      "north_star_lift": 4.6,
+      "engineering_effort": 6,
+      "compliance_risk": 7,
+      "dependencies": "Roles, audit events, notification service",
+      "feedback_count": 15,
+      "high_urgency_count": 2,
+      "avg_pain_score": 6.3,
+      "avg_adoption_rate": 0.512,
+      "avg_override_rate": 0.233,
+      "data_freshness_score": 0.902,
+      "customer_pull": 54.5,
+      "revenue_impact": 60.6,
+      "strategy_fit": 76,
+      "confidence": 85.3,
+      "priority_score": 57.1,
+      "stage": "Backlog"
+    },
+    {
+      "id": "OPP-004",
+      "name": "Amenity value tuner",
+      "product_area": "Amenities and specials",
+      "persona": "Portfolio analyst",
+      "problem": "Amenity premiums often stay static even when local demand shifts.",
+      "hypothesis": "Unit-level amenity recommendations will unlock incremental revenue without changing base rent logic.",
+      "primary_metric": "amenity premium adoption",
+      "north_star_lift": 4.8,
+      "engineering_effort": 8,
+      "compliance_risk": 6,
+      "dependencies": "Unit inventory feed, amenity catalog, audit trail",
+      "feedback_count": 10,
+      "high_urgency_count": 2,
+      "avg_pain_score": 6.5,
+      "avg_adoption_rate": 0.52,
+      "avg_override_rate": 0.234,
+      "data_freshness_score": 0.904,
+      "customer_pull": 56.4,
+      "revenue_impact": 62.5,
+      "strategy_fit": 82,
+      "confidence": 70.2,
+      "priority_score": 56.0,
+      "stage": "Backlog"
+    }
+  ],
+  "prd": {
+    "selected": {
+      "id": "OPP-001",
+      "name": "Renewal risk copilot",
+      "product_area": "Lease and renewal pricing",
+      "persona": "Revenue manager",
+      "problem": "Teams need earlier renewal risk signals when lease trade-outs, occupancy, and local comps move in different directions.",
+      "hypothesis": "A guided renewal risk queue will reduce manual review time and improve renewal pricing confidence.",
+      "primary_metric": "renewal recommendation adoption",
+      "north_star_lift": 7.5,
+      "engineering_effort": 6,
+      "compliance_risk": 4,
+      "dependencies": "Pricing service, renewal event feed, comp explanation cards",
+      "feedback_count": 18,
+      "high_urgency_count": 15,
+      "avg_pain_score": 8.3,
+      "avg_adoption_rate": 0.626,
+      "avg_override_rate": 0.183,
+      "data_freshness_score": 0.902,
+      "customer_pull": 99.7,
+      "revenue_impact": 89.2,
+      "strategy_fit": 94,
+      "confidence": 99.6,
+      "priority_score": 83.3,
+      "stage": "Beta candidate"
+    },
+    "requirements": [
+      "Show every renewal risk item with the account goal, property context, lease exposure, and recommended action.",
+      "Explain why the item is in the queue using recent occupancy movement, pricing override behavior, comp changes, and renewal timing.",
+      "Allow product, CS, and operators to capture exception notes and approval status without leaving the workflow.",
+      "Instrument queue views, explanation opens, recommendation accepts, overrides, and exception reasons.",
+      "Gate launch by feed freshness, explanation coverage, fair housing review, and support readiness."
+    ],
+    "non_goals": [
+      "Replace human pricing approval.",
+      "Expose customer-private market data across accounts.",
+      "Optimize every amenity or concession workflow in the first release."
+    ],
+    "risks": [
+      "Users may distrust recommendations if comp rationale is incomplete.",
+      "Sparse renewal data can create noisy prioritization for smaller properties.",
+      "Compliance review must be complete before scaling beyond design partners.",
+      "CS enablement needs to explain why the beta is narrow by design."
+    ],
+    "launch_plan": [
+      {
+        "phase": "Discovery close",
+        "owner": "Product",
+        "gate": "Confirm top three renewal workflows with five customer calls",
+        "metric": "problem validation rate >= 70%",
+        "status": "ready"
+      },
+      {
+        "phase": "Design partner beta",
+        "owner": "Product and Design",
+        "gate": "Prototype queue, explanation cards, and exception notes with design partners",
+        "metric": "task success >= 80%",
+        "status": "planned"
+      },
+      {
+        "phase": "Engineering build",
+        "owner": "Engineering",
+        "gate": "Ship renewal risk copilot behind account-level feature flag",
+        "metric": "p95 queue load < 1.5 seconds",
+        "status": "planned"
+      },
+      {
+        "phase": "Compliance review",
+        "owner": "Product and Legal",
+        "gate": "Review data fields, explanations, and audit events for fair housing sensitivity",
+        "metric": "zero unresolved launch blockers",
+        "status": "planned"
+      },
+      {
+        "phase": "GA readiness",
+        "owner": "Product, CS, Sales",
+        "gate": "Enable playbook, release notes, training, and adoption dashboard",
+        "metric": "beta adoption >= 60% and support rate <= 2 tickets per account",
+        "status": "planned"
+      }
+    ]
+  }
+}
